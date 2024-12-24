@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # Directory containing CSV files
-input_directory = "G:/term5/dev/Events/Light_Event/light_on/RSS7"  # Replace with your directory path
-output_directory = "G:/term5/dev/Events/Light_Event/light_on/RSS7"  # Directory to save cleaned files
+input_directory = "path of input directory"  # Replace with your directory path
+output_directory = "path of output directory"  # Directory to save cleaned files
 
 # Create output directory if it doesn't exist
 os.makedirs(output_directory, exist_ok=True)
