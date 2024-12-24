@@ -1,7 +1,7 @@
 import os
 # D:/Amir/term4/Test/Event_Window/Development/pi1/RSS
 # Directory containing your files
-directory = "G:/term5/dev/Events/Light_Event/light_on/RSS7"  # Change this to the path of your directory
+directory = "path of the directory"  # Change this to the path of your directory
 
 # Iterate through all files in the directory
 for filename in os.listdir(directory):
