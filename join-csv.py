@@ -1,9 +1,9 @@
 import pandas as pd
 
 # Define file paths
-file1_path = 'G:/term5/dev/Events/Cam_Event/on/dataset2.csv'
-file2_path = 'G:/term5/dev/Events/Cam_Event/on/TSL.csv'
-output_path = 'G:/term5/dev/Events/Cam_Event/on/dataset3.csv'
+file1_path = 'path of first Dataset file'
+file2_path = 'path of secound Dataset file'
+output_path = 'path of joined Dataset file'
 
 # Load the CSV files
 df1 = pd.read_csv(file1_path)
