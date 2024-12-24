@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import timedelta
 
 # Load the DOOR.csv file
-door_df = pd.read_csv('G:/term5/dev/Events/Cam_Event/cam_on.csv', parse_dates=['timestamp'])
+door_df = pd.read_csv('path of event record .csv file', parse_dates=['timestamp'])
 
 # Prepare a list to store formatted lines
 output_lines = []
@@ -24,7 +24,7 @@ for _, row in door_df.iterrows():
         output_lines.append(f"('{interval[0]}', '{interval[1]}', {interval[2]}, '{interval[3]}'),")
         #("4/4/2019  4:36:18 AM", "4/4/2019 9:27:30 AM", 1),
 # Write all lines to the output.txt file
-with open('G:/term5/dev/Events/Cam_Event/cam_on.txt', 'w') as file:
+with open('path of output ranges file.txt', 'w') as file:
     file.write("\n".join(output_lines))
 
 print("Intervals saved to output.txt")
