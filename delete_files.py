@@ -1,8 +1,8 @@
 import os
 
 # D:\Amir\term4\Start\DOOR
-bmp_folder = 'G:/term5/dev/Events/Light_Event/light_on/RSS7'
-door_folder = 'G:/term5/dev/Events/Light_Event/light_on/TSL7'
+bmp_folder = 'Sensor Folder path'
+door_folder = 'Event Folder path'
 
 # Get the list of filenames in both folders (excluding extensions)
 bmp_files = {os.path.splitext(f)[0] for f in os.listdir(bmp_folder) if os.path.isfile(os.path.join(bmp_folder, f))}
