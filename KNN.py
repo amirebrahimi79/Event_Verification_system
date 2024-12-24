@@ -5,7 +5,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 # Load the dataset
-file_path = 'G:/term5/dev/DataSets/DataSet_Cam_off.csv'  # Adjust path if needed
+file_path = 'path of your Dataset'  # Adjust path if needed
 df = pd.read_csv(file_path)
 
 # Step 1: Data Cleaning
