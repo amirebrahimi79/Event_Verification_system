@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.metrics import classification_report, accuracy_score
 import joblib
 # Load the dataset
-file_path = 'G:/term5/dev/DataSets/DataSet_Ring.csv'
+file_path = 'path of your Dataset'
 dataset = pd.read_csv(file_path)
 
 # Drop rows with missing values
@@ -44,5 +44,3 @@ print(f"Accuracy: {accuracy:.2f}")
 print("Classification Report:")
 print(classification_rep)
 
-joblib.dump(svm_classifier, 'G:/term5/dev/svm_classifier_model.pkl')
-print("Model saved as 'svm_classifier_model.pkl'")
