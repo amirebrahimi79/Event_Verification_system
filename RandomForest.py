@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.preprocessing import StandardScaler
 
 # Load the dataset
-file_path = 'G:/term5/dev/DataSets/DataSet_Ring.csv'  # Adjust the file path if necessary
+file_path = 'path of your dataset'  # Adjust the file path if necessary
 df = pd.read_csv(file_path)
 
 # Step 1: Data Cleaning
