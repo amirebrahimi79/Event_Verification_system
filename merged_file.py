@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # Specify the folder containing the .csv files
-folder_path = 'G:/term5/dev/Events/Light_Event/light_on/RSS7'  # Replace with your folder path
-output_file = 'G:/term5/dev/Events/Light_Event/light_on/RSS7.csv'     # Name for the merged output file
+folder_path = 'dircetory path of sensor folder'  # Replace with your folder path
+output_file = 'path of merged file'     # Name for the merged output file
 timestamp_column = 'timestamp'         # Replace with the name of your timestamp column
 # List to hold DataFrames
 dataframes = []
