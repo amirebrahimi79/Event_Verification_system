@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 import time
 
 # Step 1: Load the dataset
-file_path = 'G:/term5/dev/DataSets/DataSet_shade_down.csv'
+file_path = 'path of your Dataset'
 data = pd.read_csv(file_path)
 
 # Step 2: Preprocess the dataset
