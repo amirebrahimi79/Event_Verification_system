@@ -48,5 +48,5 @@ print(confusion_matrix(y_test, y_pred))
 
 # Optional: Save the trained model
 
-joblib.dump(gb, 'G:/term5/Models/Doorbel_Ring.pkl')
+joblib.dump(gb, 'path to save Model to .pkl format')
 print("Model saved as 'gradient_boosting_model.pkl'")
