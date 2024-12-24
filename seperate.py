@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the DOOR.csv file
-door_df = pd.read_csv('G:/term5/dev/Events/Cam_Event/cam.csv')
+door_df = pd.read_csv('path of event file')
 
 # Filter records by DOOR value
 win_open = door_df[door_df['privacy'] == 1 ]
