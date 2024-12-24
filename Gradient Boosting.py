@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report ,confusion_mat
 import matplotlib.pyplot as plt
 import joblib
 # Load the dataset
-file_path = 'G:/term5/dev/DataSets/DataSet_Ring.csv'  # Replace with your file path
+file_path = 'path of your Dataset'  # Replace with your file path
 df = pd.read_csv(file_path)
 
 # Step 1: Data Preprocessing
