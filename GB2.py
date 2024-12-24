@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the dataset
-file_path = 'G:/term5/dev/DataSets/DataSet_Ring.csv'
+file_path = 'path of your Dataset'
 df = pd.read_csv(file_path)
 
 # Drop rows with missing labels
